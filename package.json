@@ -1,0 +1,26 @@
+{
+  "name": "bun-vite-react",
+  "type": "module",
+  "scripts": {
+    "vite": "vite",
+    "t": "vitest --globals"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.6",
+    "@types/react-dom": "^18.2.4",
+    "@vitejs/plugin-react": "^4.0.0",
+    "autoprefixer": "^10.4.14",
+    "bun-types": "^0.6.2",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.2",
+    "vite": "^4.3.8",
+    "vitest": "^0.31.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
