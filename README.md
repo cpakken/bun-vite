@@ -1,15 +1,11 @@
-# bun-vite
+# bun-vite-react
 
-To install dependencies:
-
-```bash
-bun install
-```
-
-To run:
+A bun project with vite and react.
 
 ```bash
-bun run index.ts
-```
+bun create cpakken/bun-vite-react
 
-This project was created using `bun init` in bun v0.5.2. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+cd bun-vite-react # creates and installs all dependencies
+
+bun vite # `bun dev` is reserved for bun's own dev server
+```
